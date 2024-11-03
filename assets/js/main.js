@@ -93,7 +93,7 @@
 				// Disable all scroll-assist features.
 					settings.keyboardShortcuts.enabled = false;
 					settings.scrollWheel.enabled = true;
-					settings.scrollZones.enabled = false;
+					settings.scrollZones.enabled = true;
 					settings.dragging.enabled = false;
 
 				// Re-enable overflow on body.
