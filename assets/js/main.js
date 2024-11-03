@@ -304,9 +304,9 @@
 				// Wheel event.
 					$body.on('wheel', function(event) {
 
-						// Disable on <=small.
+						/* Disable on <=small.
 							if (breakpoints.active('<=small'))
-								return;
+								return;*/
 
 						// Prevent default.
 							event.preventDefault();
