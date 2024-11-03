@@ -306,14 +306,14 @@
 
 						/* Disable on <=small.
 							if (breakpoints.active('<=small'))
-								return;*/
+								return;
 
 						// Prevent default.
 							event.preventDefault();
 							event.stopPropagation();
 
 						// Stop link scroll.
-							$bodyHtml.stop();
+							$bodyHtml.stop(); */
 
 						// Calculate delta, direction.
 							var	n = normalizeWheel(event.originalEvent),
